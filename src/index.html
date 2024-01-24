@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Roboto">
+</head>
+
+<body>
+    <div id="logo-title">
+        <div id="nav-bar">
+            <img id="logo"
+                src="data:image/png;base64,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"
+                alt="image">
+            <h1 id="h1">Full Stack Development</h1>
+        </div>
+
+    </div>
+    </div>
+    <div>
+        <div class="ban"><img id="banner" src="fs1.jpg" alt="banner" height="340">
+            <h1>about sanjay's website</h1>
+        </div>
+    </div>
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">
+                Welcome to FullStack, where innovation meets simplicity. At FullStack, we're passionate about crafting
+                seamless digital experiences. Our team of experts specializes in both front-end and back-end
+                development, ensuring a holistic approach to your projects. We thrive on challenges, transforming ideas
+                into robust solutions. What sets FullStack apart is our commitment to precision and creativity -
+                delivering products that not only meet but exceed expectations. Join us on a journey of innovation and
+                reliability. Your success is our priority, and at FullStack, we're not just coding; we're building
+                futures. Explore the limitless possibilities with FullStack - where your ideas come to life.</p>
+            <p>we also offer other Programs
+            <ol>
+                <li><a href="https://jovian.com/" target="_blank">Full stack developer Bootcamp</a></li>
+                <li> <a href="https://jovian.com/" target="_blank">Data science bootcamp</a></li>
+            </ol>
+            </p>
+        </div>
+        <div id="team">
+            <img id="team-image" src="st1.jpg" alt="studentimage">
+        </div>
+    </div>
+
+
+    <h2>Job opportunities</h2>
+    <div id="jobs">
+        <table id="jobs-table">
+            <tr class="jobs-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            <tr class="jobs-header-row">
+                <th colspan="">City</th>
+                <th>Country</th>
+            </tr>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Frontend Developer</td>
+                <td>Bengaluru</td>
+                <td>India</td>
+                <td>₹12,00,000</td>
+                <td>March3,2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Full Stack Developer</td>
+                <td>Hyderabad</td>
+                <td>India</td>
+                <td>₹15,00,000</td>
+                <td>Feb 1,2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Data Scientist</td>
+                <td>New Delhi</td>
+                <td>India</td>
+                <td>₹7,50,000</td>
+                <td>Dec 22,2024</td>
+            </tr>
+            <tr class="jobs-data-row">
+                <td>Machine Learning Engineer</td>
+                <td colspan="2">Remote</td>
+                <td>₹6,00,000</td>
+                <td>Sep 19,2024</td>
+            </tr>
+        </table>
+
+    </div>
+    <div id="application">
+        <h2>Submit Your Application</h2>
+
+        <form action="https://formbold.com/s/9Ep4R" method="post" enctype="multipart/form-data"  id="application-form">
+            <div class="form-group">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required placeholder="John Doe">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required placeholder="jdoe@example.com">
+            </div>
+            <div class="form-group">
+
+                <label for="phone">Phone</label><br>
+                <input type="tel" id="phone" name="phone" required placeholder="+919898989898">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth</label><br>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-group">
+                <label for="position">Position Applied for</label><br>
+                <select id="position" name="position" required>
+                    <option value="">Select an option</option>
+                    <option value="Frontend Developer">Frontend Developer</option>
+                    <option value="Full Stack Developer">Full Stack Developer</option>
+                    <option value="Data Scientist">Data Scientist</option>
+                    <option value="ML Engineer">ML Engineer</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+            </div>
+
+            <div class="form-group">
+                <label for="coverletter">Cover Letter</label><br>
+                <textarea id="coverletter" name="coverletter" rows="5" required
+                    placeholder="Explain what makes you suitable for the job.."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    I agree to the terms and conditions
+                </label>
+            </div>
+
+            <div class="form-group">
+                <input id="submit" type="submit" value="Submit">
+            </div>
+        </form>
+
+
+    </div>
+
+
+    <div id="footer">
+        <ul id="footer-links">
+            <a href="https://www.w3schools.com/" target="_blank">
+                <li>courses</li>
+            </a>
+            <a href="https://jovian.com/" target="_blank">
+                <li>Programs</li>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <li>Youtube</li>
+            </a>
+        </ul>
+        <div class="copy">© 2023 sanjay</div>
+    </div>
+
+
+
+</body>
+
+</html>
